@@ -7,11 +7,17 @@
 #navbar {
     height: 60px;
     background-color: beige;
+    justify-content: last baseline;
 }
 
 a {
     margin-right: 200px;
     text-decoration: none;
 }
+
+body {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    }
 
 
