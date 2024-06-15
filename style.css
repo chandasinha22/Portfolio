@@ -58,17 +58,10 @@ body {
     }
 
 .image {
-    position: relative;
+    position: flex;
     height: 150px;
     width: 150px;
     border-radius: 50%;
     background-color: blue;
     padding: 3px;
 }  
-
-.image .profile-pic {
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-}
