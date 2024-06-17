@@ -58,10 +58,24 @@ body {
     }
 
 .image {
-    position: flex;
+    position: fixed;
     height: 150px;
     width: 150px;
     border-radius: 50%;
     background-color: blue;
     padding: 3px;
 }  
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-img img{
+  height: 300px;
+  width: 300px;
+  cursor: crosshair;
+  animation: floatImage 2s ease-in-out 3;
+}
+
